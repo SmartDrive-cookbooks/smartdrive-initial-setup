@@ -9,5 +9,4 @@
 
 # install basic packages
 include_recipe "apt"
-include_recipe "smartdrive-initial-setup::basic_software"
-
+include_recipe "smartdrive-initial-setup::basic_software_install"

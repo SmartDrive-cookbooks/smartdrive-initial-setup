@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-node["smartdrive-initial-setup"]["basic_software"].each do |software|
+node["smartdrive-initial-setup"]["basic_software_install"].each do |software|
   package software do
     action :install
   end
